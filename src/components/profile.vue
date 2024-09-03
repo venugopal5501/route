@@ -1,5 +1,6 @@
 <template>
     <h1>{{ profile }}Profile Page</h1>
+    <h2>htmlcss</h2>
 </template>
 <script>
 import { useRoute } from 'vue-router';
