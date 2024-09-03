@@ -6,14 +6,14 @@
 import { useRoute } from 'vue-router';
 export default {
     name: 'ProfilePage',
-    data(){
-        return{
-            profile:''
+    data() {
+        return {
+            profile: ''
         }
     },
-    mounted(){
-        const route=useRoute();
-        this.profile=route.params
+    mounted() {
+        const route = useRoute();
+        this.profile = route.params
     }
 }
 </script>
