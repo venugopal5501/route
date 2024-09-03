@@ -16,7 +16,7 @@ const routes = [
   },
   {
     name: "profile",
-    path: "/pro",
+    path: "/pro/:name",
     component: profile,
   },
 ];
