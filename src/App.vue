@@ -2,9 +2,9 @@
   <router-link to="/">Home</router-link>|
   <router-link to="/log">login</router-link>|
   <router-link to="/pro">profile</router-link>|
-<router-link to="/pro/client">Client</router-link>|
-<router-link to="/pro/Dev">Developer</router-link>
-<router-view />
+  <router-link to="/pro/client">Client</router-link>|
+  <router-link to="/pro/Dev">Developer</router-link>
+  <router-view />
 </template>
 
 <script>
